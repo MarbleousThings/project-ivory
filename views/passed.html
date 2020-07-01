@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/css/styles.css" type="text/css">
+    <!-- <script src="serverFunctions.js"></script> -->
+    <script>
+        function showStatus(){
+            
+        }
+    </script>
+    <title>Digital Ivory</title>
+</head>
+<body>
+
+<header>Digital Ivory</header>
+<p>
+    
+    <form name="input" action="/submit" method="post">
+        <label>Enter a YouTube URL to transcribe:</label>
+        <input type="text" name="url" value="" onfocus=""><br><br>
+        <input type="submit" value="Submit" onclick="submit()"></input>
+    </form>
+
+</p>
+<h2>Or search existing songs</h2>
+<p>
+    <form name="dbSearch" action="/search" method="post">
+        <label>Artist name:</label>
+        <input type="text" name="artistname" value=""><br></br>
+        <label>Song name:</label>
+        <input type="text" name="songname" value=""><br></br>
+        <input type="submit" value="Search" onclick="search()"></input>
+    </form>
+    <h3>Found your song!</h3>
+
+</p>
+
+</body>
+</html>
