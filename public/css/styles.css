@@ -4,10 +4,24 @@ header{
     text-align: center;
     font-size: 52px;
     text-underline-offset: 10px;
-    text-decoration: underline;
+    text-decoration: bold;
+    text-shadow:
+                -1px -1px black, 
+                1px 1px pink,
+                2px 2px purple,
+                3px 3px black;
+    text-emphasis-position: 10px;   
+    color: antiquewhite;
+    justify-content: center;
+    padding-left: 35%;
+    padding-top: 5%;
+    width: fit-content;
 }
 body {
     background-color: lightblue;
+    
+    text-shadow: 0px 0px white,
+                0px 0px purple;
     text-align: center;
     
 }
@@ -17,7 +31,7 @@ h1{
     text-align: center;
     text-size-adjust: 80%;
     font-size: 40px;
-    
+
 }
 
 p{

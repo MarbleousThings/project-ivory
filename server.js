@@ -48,7 +48,12 @@ app.post('/search', function(req, res){
   var song_name = req.body.songname;
   setTimeout(function(){
       console.log("Your artist's name is %s and your song is %s", artist_name, song_name)
-    },5000);
+    },10);
+  
+  //res.sendStatus(200); <--this works
+  //res.statusCode = 200;
+  
+  res.sendFile(`${__dirname}/views/failed.html`);
 });
 
 app.listen(port, ()=> console.log(`listening on port ${port}`));
