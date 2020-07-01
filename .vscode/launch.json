@@ -1,0 +1,9 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+        "console": "internalConsole",
+        "outputCapture": "std"
+        }
+    ]
+}

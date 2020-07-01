@@ -1,0 +1,27 @@
+
+header{
+    text-size-adjust: 80%;
+    text-align: center;
+    font-size: 52px;
+    text-underline-offset: 10px;
+    text-decoration: underline;
+}
+body {
+    background-color: lightblue;
+    text-align: center;
+    
+}
+
+h1{
+    color: gray;
+    text-align: center;
+    text-size-adjust: 80%;
+    font-size: 40px;
+    
+}
+
+p{
+    padding-top: 5%;
+    font-size: 20px;
+    padding-left: 30%;
+}
